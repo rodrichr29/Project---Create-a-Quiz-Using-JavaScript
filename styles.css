@@ -1,0 +1,112 @@
+body {
+    background-image: url("Images/brown-checker-squares.png");
+}
+
+.sonic-running {
+    width: 8%;
+    margin-bottom: -125px;
+    padding-left: 25px;
+}
+
+.robotnik-flying-away {
+    width: 24%;
+    margin-bottom: -125px;
+
+}
+
+.sonic-running-2 {
+    width: 8%;
+    margin-bottom: -125px;
+    padding-left: 50px;
+}
+
+.robotnik-running {
+    width: 20%;
+    margin-bottom: -146px;
+    padding-left: 10px;
+
+}
+
+.sonic-waiting {
+    width: 7.5%;
+    margin-bottom: -125px;
+    padding-left: 25px;
+}
+
+.robotnik-making-a-scene {
+    width: 16%;
+    margin-bottom: -125px;
+    padding-left: 80px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.page-title {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.card {
+    border: 5px solid black;
+    background-image: url("Images/yellow-checker-pattern.jpg");
+    width: 960px;
+    margin: auto;
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    color: lightyellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.text-question {
+    color: lightyellow;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.multiple-choice {
+    margin-left: 380px;
+    padding-bottom: 15px;
+}
+
+.text-choice {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+    border-radius: 5px;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 380px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 30px;
+}
+
+.results {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}

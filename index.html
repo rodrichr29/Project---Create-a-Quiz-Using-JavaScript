@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sonic The Hedgehog Quiz</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header-section">
+            <h1 class="page-title">Sonic The Hedgehog Quiz</h1>
+        </div>
+        <div id="card-1" class="card">
+            <img src="Images/sonic-running.gif" class="sonic-running" alt="sonic-running.gif">
+            <img src="Images/robotnik-flying-away.gif" class="robotnik-flying-away" alt="robotnik-flying-away.gif">
+            <h2 class="card-title">Question 1</h2>
+            <h4 class="text-question">The character you play as in "Sonic The Hedgehog", what is his power?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice" value="Super Strength">
+                <label class="text-choice">Super Strength</label><br>
+                <input type="radio" name="choice" value="Super Speed">
+                <label class="text-choice">Super Speed</label><br>
+                <input type="radio" name="choice" value="Flight">
+                <label class="text-choice">Flight</label><br>
+                <input type="radio" name="choice" value="Super Intelligence">
+                <label class="text-choice">Super Intelligence</label>
+            </form>
+            <button onclick="userInputQuestion1()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-2" class="card">
+            <img src="Images/robotnik-running.gif" class="robotnik-running" alt="robotnik-running.gif">
+            <img src="Images/sonic-running.gif" class="sonic-running-2" alt="sonic-running.gif">
+            <h2 class="card-title">Question 2</h2>
+            <h4 class="text-question">Who is the big fat round man in "Sonic The Hedgehog"?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice2" value="Dr Eggplant">
+                <label class="text-choice">Dr Eggplant</label><br>
+                <input type="radio" name="choice2" value="Dr Ball">
+                <label class="text-choice">Dr Ball</label><br>
+                <input type="radio" name="choice2" value="Dr Robotman">
+                <label class="text-choice">Dr Robotman</label><br>
+                <input type="radio" name="choice2" value="Dr Ivo Robotnik">
+                <label class="text-choice">Dr Ivo Robotnik</label>
+            </form>
+            <button onclick="userInputQuestion2()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-3" class="card">
+            <img src="Images/sonic-waiting.gif" class="sonic-waiting" alt="sonic-waiting.gif">
+            <img src="Images/robotnik-making-a-scene.gif" class="robotnik-making-a-scene" alt="robotnik-making-a-scene.gif">
+            <h2 class="card-title">Question 3</h2>
+            <h4 class="text-question">Can Sonic spin dash in "Sonic The Hedgehog"?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice3" value="Yes">
+                <label class="text-choice">Yes</label><br>
+                <input type="radio" name="choice3" value="No">
+                <label class="text-choice">No</label><br>
+            </form>
+            <button onclick="userInputQuestion3()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-4" class="card">
+            <img src="Images/sonic-running.gif" class="sonic-running" alt="sonic-running.gif">
+            <img src="Images/robotnik-flying-away.gif" class="robotnik-flying-away" alt="robotnik-flying-away.gif">
+            <h2 class="card-title">Question 4</h2>
+            <h4 class="text-question">How many stages are there in every zone in the game?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice4" value="2 Stages">
+                <label class="text-choice">2 Stages</label><br>
+                <input type="radio" name="choice4" value="4 Stages">
+                <label class="text-choice">4 Stages</label><br>
+                <input type="radio" name="choice4" value="3 Stages">
+                <label class="text-choice">3 Stages</label><br>
+                <input type="radio" name="choice4" value="There are no stages">
+                <label class="text-choice">There are no stages</label>
+            </form>
+            <button onclick="userInputQuestion4()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-5" class="card">
+            <img src="Images/robotnik-running.gif" class="robotnik-running" alt="robotnik-running.gif">
+            <img src="Images/sonic-running.gif" class="sonic-running-2" alt="sonic-running.gif">
+            <h2 class="card-title">Question 5</h2>
+            <h4 class="text-question">Can you save your progress in the game?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice5" value="Yes">
+                <label class="text-choice">Yes</label><br>
+                <input type="radio" name="choice5" value="No">
+                <label class="text-choice">No</label><br>
+            </form>
+            <button onclick="userInputQuestion5()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-6" class="card">
+            <img src="Images/sonic-waiting.gif" class="sonic-waiting" alt="sonic-waiting.gif">
+            <img src="Images/robotnik-making-a-scene.gif" class="robotnik-making-a-scene" alt="robotnik-making-a-scene.gif">
+            <h2 class="card-title">Question 6</h2>
+            <h4 class="text-question">How many zones are there in the game?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice6" value="7 Zones">
+                <label class="text-choice">7 Zones</label><br>
+                <input type="radio" name="choice6" value="6 Zones">
+                <label class="text-choice">6 Zones</label><br>
+                <input type="radio" name="choice6" value="12 Zones">
+                <label class="text-choice">12 Zones</label><br>
+                <input type="radio" name="choice6" value="11 Zones">
+                <label class="text-choice">11 Zones</label><br>
+            </form>
+            <button onclick="userInputQuestion6()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-7" class="card">
+            <img src="Images/sonic-running.gif" class="sonic-running" alt="sonic-running.gif">
+            <img src="Images/robotnik-flying-away.gif" class="robotnik-flying-away" alt="robotnik-flying-away.gif">
+            <h2 class="card-title">Question 7</h2>
+            <h4 class="text-question">What is the fourth zone?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice7" value="Green Hill Zone">
+                <label class="text-choice">Green Hill Zone</label><br>
+                <input type="radio" name="choice7" value="Marbel Zone">
+                <label class="text-choice">Marbel Zone</label><br>
+                <input type="radio" name="choice7" value="Spring Yard Zone">
+                <label class="text-choice">Spring Yard Zone</label><br>
+                <input type="radio" name="choice7" value="Labyrinth Zone">
+                <label class="text-choice">Labyrinth Zone</label>
+            </form>
+            <button onclick="userInputQuestion7()" class="submit-button">Submit Answer</button>
+        </div>
+        
+        
+        <div id="card-8" class="card">
+            <img src="Images/robotnik-running.gif" class="robotnik-running" alt="robotnik-running.gif">
+            <img src="Images/sonic-running.gif" class="sonic-running-2" alt="sonic-running.gif">
+            <h2 class="card-title">Question 8</h2>
+            <h4 class="text-question">When was "Sonic The Hedgehog" created?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice8" value="1992">
+                <label class="text-choice">1992</label><br>
+                <input type="radio" name="choice8" value="1991">
+                <label class="text-choice">1991</label><br>
+                <input type="radio" name="choice8" value="1994">
+                <label class="text-choice">1994</label><br>
+                <input type="radio" name="choice8" value="1993">
+                <label class="text-choice">1993</label>
+            </form>
+            <button onclick="userInputQuestion8()" class="submit-button">Submit Answer</button>
+        </div>
+        
+        
+        <div id="card-9" class="card">
+            <img src="Images/sonic-waiting.gif" class="sonic-waiting" alt="sonic-waiting.gif">
+            <img src="Images/robotnik-making-a-scene.gif" class="robotnik-making-a-scene" alt="robotnik-making-a-scene.gif">
+            <h2 class="card-title">Question 9</h2>
+            <h4 class="text-question">How many chaos emeralds are there?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice9" value="5 Emeralds">
+                <label class="text-choice">5 Emeralds</label><br>
+                <input type="radio" name="choice9" value="7 Emeralds">
+                <label class="text-choice">7 Emeralds</label><br>
+                <input type="radio" name="choice9" value="6 Emeralds">
+                <label class="text-choice">6 Emeralds</label><br>
+                <input type="radio" name="choice9" value="4 Emeralds">
+                <label class="text-choice">4 Emeralds</label><br>
+            </form>
+            <button onclick="userInputQuestion9()" class="submit-button">Submit Answer</button>
+        </div>
+
+
+        <div id="card-10" class="card">
+            <img src="Images/sonic-running.gif" class="sonic-running" alt="sonic-running.gif">
+            <img src="Images/robotnik-flying-away.gif" class="robotnik-flying-away" alt="robotnik-flying-away.gif">
+            <h2 class="card-title">Question 10</h2>
+            <h4 class="text-question">How many endings are there?</h4>
+            <form class="multiple-choice">
+                <input type="radio" name="choice10" value="1 Ending">
+                <label class="text-choice">1 Ending</label><br>
+                <input type="radio" name="choice10" value="2 Endings">
+                <label class="text-choice">2 Endings</label><br>
+                <input type="radio" name="choice10" value="3 Endings">
+                <label class="text-choice">3 Endings</label><br>
+                <input type="radio" name="choice10" value="4 Endings">
+                <label class="text-choice">4 Endings</label>
+            </form>
+            <button onclick="userInputQuestion10()" class="submit-button">Submit Answer</button>
+        </div>
+
+        <h2 id="results" class="results"></h2>
+        <h2 id="output" class="results"></h2>
+        <script src="main.js"></script>
+    </body>
+</html>
